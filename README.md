@@ -10,7 +10,7 @@ To run the first script:
 
 To run the second script:
 <code>
-./self-update.sh <1> <2> <3>
+sudo ./self-update.sh <1> <2> <3>
 </code>
 
 Legend:
