@@ -14,6 +14,7 @@ To run the second script:
 </code>
 
 Legend:
+
 1 - Path to create directory
 
 2 - Machine's IP
