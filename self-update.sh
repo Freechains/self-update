@@ -5,17 +5,6 @@
 #2 - Machine's IP
 #3 - The gateway
 
-trap exiting $2 $3 2
-
-exiting()
-{
-	echo "HERE"
-	echo $1
-	echo $2
-	freechains --host=$2:$3 host stop
-	exit 1
-}
-
 #Starting host (same host as specified in the configuration)
 freechains host start $1 &
 sleep 0.5
